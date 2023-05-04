@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Schibsted+Grotesk&family=Source+Code+Pro:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+
+  @import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@300&family=Source+Serif+Pro:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  background-color: lightgray;
+  font-family: "Lora", serif;
+
+  height: 100vh;
+  margin: 0;
+  width: 300px;
+}
+
+.main {
+  /* background-color: yellow; */
+  width: 85vw;
+  padding: 23px;
+  margin: 0;
+}
+
+.sidebar nav {
+  padding: 45px;
+}
+
+.sidebar nav li {
+  list-style: none;
+  font-size: 25px;
+  padding: 12px 0;
+  margin-top: 40px;
+  font-family: "EB Garamond", serif;
+}
+
+.sidebar nav li a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  display: flex;
+}
+
+.infoContainer {
+  height: 65vh;
+  width: 75vw;
+  /* background-color: rgb(246, 131, 202);  */
+  margin: 70px auto;
+  display: flex;
+  justify-content: space-around;
+}
+.devPic img {
+  height: auto;
+  width: 100%;
+  margin-top: 50px;
+  margin-right: 70px;
+}
+.devInfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "EB Garamond", serif;
+  padding: 50px;
+  margin-top: 50px;
+}
+
+.hello {
+  font-size: 40px;
+}
+.name {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Schibsted Grotesk", sans-serif;
+}
+.about {
+  font-size: 30px;
+}
+
+.moreInfo {
+  font-family: "Schibsted Grotesk", sans-serif;
+  font-size: 15px;
+  align-items: center;
+  padding: 5px;
+}
+
+.buttons button {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(190, 145, 190);
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  color: rgb(190, 145, 190);
+  background-color: white;
+}
+
+.contactForm {
+  padding: 20px 40px;
+
+  font-family: "Schibsted Grotesk", sans-serif;
+  
+ 
+}
+.contactForm h1 {
+  font-family: "EB Garamond", serif;
+  text-align: center;
+  font-size: 45px;
+}
+
+
+.mb-3{
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+
+
+#emailHelp {
+  color: midnightblue;
+  font-size: 15px;
+}
+
+.blogItem h2 {
+  margin: 20px;
+  margin-top: 40px;
+  font-family: "Schibsted Grotesk", sans-serif;
+  text-align: center;
+}
+
+.blogItem p {
+  font-family: "Lora", serif;
+  justify-content: center;
+  margin: 20px;
+  margin-top: 50px;
+}
+.insta button img {
+  height: 50px;
+  width: 50px;
+  border-color: white;
+}
+.img{
+  margin: 30px;
+}
+.work h1{
+  font-family: "EB Garamond", serif;
+  justify-content: center;
+  text-align: center;
+  margin-top: 2px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.work ul{
+  font-family: 'Anuphan', sans-serif;
+  font-weight: bold;
+  margin-left: -100px;
+  margin-top: 40px;
+  font-size: 19px;
+  
+ 
+}
+.work li{
+  padding: 4px;
+}
+
+.projects ul{
+  justify-content: center;
+  margin: 0;
+}
